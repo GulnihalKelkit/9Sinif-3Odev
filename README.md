@@ -75,14 +75,14 @@ kullandım. Konum-zaman grafiği 2.dereceden bir denklem iken, hız-zaman grafi�
 2) Aynı Google Sheet'i kullanarak ivme verilerini Google Sheet'inize girin. (Bu sefer 7 tane ivme veriniz olacak.) İvme-zaman grafiğini çiziniz.
 
 3) İvme'yi ne buldunuz? Bu ivme değerini kullanarak 1kg'lık cisim ile yüzey arasındaki kinetik sürtünme katsayısını bulunuz. 
-İvme=-2,32. Kinetik sürtünme katsayısı=
+İvme=-2,32. Kinetik sürtünme katsayısı=-16
 
 # Bölüm 3 (Hala Beni Öldürmeyi Düşünmüyorsan)
 1) Bu deneyde ölçüm hatalarım var. Zamandaki ölçüm hatam sizce kaç ms (mili saniye) nedir? Konumdaki ölçüm hatam sizce kaç cm'dir? 
-
+Anladığım kadarıyla hata hesaplanırken ölçümün yarısı alınır. [Kaynak](https://www.mathsisfun.com/measure/error-measurement.html). Bu yüzden zamandaki ölçüm 0,766 ve yarısını alırsak 0,383 SANİYE hata payı olur. 0,383 saniye = 383 mili saniyedir. Konumdaki ölçüm ise 0,675 ve yarısı 0,3375 METREdir. 0,3375 metre= 33,75 santimetredir.
 2) Acaba hiç grafik çizmeden sürtünme katsayısını bulabilir miydim?  (Cevap: Evet). 
 Yardım:
 * Düzgün ivmelenen bir cisim için alınan yol formülü x = (ilk hız+ son hız)/2*t, burdan cismin ilk hızını bulunuz. 
 * Daha sonra iş-kinetik enerji teorimini kullanarak sürtünme kuvvetini bulun. Sürtünme kuvvetinden, kinetik sürtünme katsayısını bulunuz.
 
-3) Bu video'dan statik sürtünme katsayısını bulabilir miydim? 
+3) Bu video'dan statik sürtünme katsayısını bulabilir miydim? Bence hayır, cisim ilk başlarda hareketli olup yanlızca son anlarda yavaşlıyarak durmuştur.Elimizde yeterli bilgi yok. Belki tahminde bulunabilirdik ama ölçüm yapamazdık.
