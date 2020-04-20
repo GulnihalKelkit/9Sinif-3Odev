@@ -33,11 +33,35 @@ Bulduğum ikinci dereceden denklem (x= konum, t=zaman, *x= at^2+b*t + c*) şu ş
 *x = -1.22*t^2 + 1.81*t + 3.92E-03* 
 
 
-Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](link ver) link verin (Google Sheet herkese açık erişimli olsun.) 
+Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](https://docs.google.com/spreadsheets/d/1GaT3_0Ejzr-t0cHgo--S5K64pGeu7sP6jC57ypG-rzE/edit#gid=0) link verin (Google Sheet herkese açık erişimli olsun.) 
 
-a) Denkleminizi **buraya yazınız**. Sizce a, b, ve c'nin fiziksel anlamları ne olabilir? Sizce niçin a'nın değeri negatif? 
-b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir? 
-c) Video'daki cismin atılış hızı farklı olsaydı (diğer herşey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c) 
+|Konum(m)|Zaman(s)|Frame|
+|--------|--------|-----|
+| 0      |   0    |  7    |
+|0,09    | 0,05   |  10    |
+|0,172   |    0,1 |   13   |
+|0,24    |   0,15 |   16   |
+|0,32    |   0,20 |   19   |
+|0,39    |   0,25 |  22    |
+|0,44    |  0,30  |    25  |
+|0,49    |   0,35 |  28    |
+|0,53    |  0,4   | 31     |
+|0,57    |   0,45 | 34     |
+|0,6     |    0,5 |   37   |
+|0,63    |   0,55 |    40  |
+|0,65    |  0,6   |  43    |
+|0,66    |    0,65|  46    |
+|0,67    |   0,7  | 49     |
+|0,67     |  0,75 |  52    |
+|0,67     |   0,8 | 55    |
+|0,67     |  0,85 | 58     |
+|0,67     |   0,9 |  61    |
+
+
+a) Denkleminizi **x=-1,18t^2+1,78t+5,61E-03** Sizce a, b, ve c'nin fiziksel anlamları ne olabilir? Sizce niçin a'nın değeri negatif? 
+a=ivme, b=ilk hız, c=konum. a negatiftir çünkü cisim zamanla yavaşlamaktadır.
+b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir? Hayır, bu harekette olmaz çünkü ivmeyi ilgilendiren iki sürtünme var: Cisim ile zemin arasında ve cisim ile hava arasında. Hava sürtünmesini ihmal etsek dahi ivme sabit olmaz.
+c) Video'daki cismin atılış hızı farklı olsaydı (diğer her şey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c) b değişirdi çünkü denklemde b ilk hızı ifade ediyor.
 
 # Bölüm 2 (İvmeli Hareketin Ortalama Hız-Zaman Grafiği)
 Bu sefer aynı cismin zaman-hız (ortalama hız) grafiğini çizeceksiniz. Bunun için *1.Bölümde* aldığımız sonuçları kullanacağız. Ortalama hızı bulmak için derste öğrendiğimiz ortalama hız formülünü (Delta x/ Delta t) kullanacağız. Google Sheet kullanarak hız-zaman grafiği nasıl çizildiğini anlamak için  [bu videoya](https://www.youtube.com/watch?v=67IsHRmcmfE&t) bakınız. Ortalama hız-zaman grafiğini çizilirken, ortalama hıza karşılık gelen zamanı nasıl belirleyeceksin? Bir andaki  ortalama hızı hesaplarken o noktadan önceki ve o noktadan sonraki (t,x) noktalarını kullanacaksın. Bu yüzden konum grafiğimde 11 veri noktam varken, hız-zaman grafiğinde veri noktam 9'a düştü. (İlk baştaki ve son baştaki noktalar için ortalama hızı hesaplayamam çünkü başlangıç noktasından önce ve bitiş noktasından sonraki (t,x) bilgilerine sahip değilim.)
